@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+</head>
+<body>
+    <h1>My Activities</h1>
+    <ol>
+        <% activities.forEach(activity => { %>
+            <li><%= activity %></li>
+        <% }); %>
+    </ol>
+    <a href="/dashboard">Back to Dashboard</a>
+</body>
+</html>
